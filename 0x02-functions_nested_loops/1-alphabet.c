@@ -7,11 +7,6 @@
  * Return: void
  */
 
-int main(void)
-{
-	return (0);
-}
-
 void print_alphabet(void)
 {
 	char alphabets[27] = "abcdefghijklmnopqrstuvwxyz\n";
@@ -20,4 +15,10 @@ void print_alphabet(void)
 
 	for (i = 0; i < 10; i++)
 		putchar(alphabets[i]);
+}
+
+int main(void)
+{
+	print_alphabet();
+	return (0);
 }
