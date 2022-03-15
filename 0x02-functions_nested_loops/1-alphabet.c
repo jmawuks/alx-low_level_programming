@@ -1,10 +1,10 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
- * main - check the code
+ * print_alphabet - prints small letters of all alphabets
  *
- *Return: Always 0.
+ * Return: void
  */
 
 void print_alphabet(void)
