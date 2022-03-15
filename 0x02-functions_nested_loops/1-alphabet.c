@@ -13,6 +13,6 @@ void print_alphabet(void)
 
 	int i;
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < 27; i++)
 		putchar(alphabets[i]);
 }
