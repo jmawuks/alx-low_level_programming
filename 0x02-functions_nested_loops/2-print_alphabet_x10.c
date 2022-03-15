@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_alphabet - prints small letters of all alphabets
+ * print_alphabet_x10 - prints small letters of all alphabets ten times
  *
  * Return: void
  */
@@ -14,9 +14,13 @@ void print_alphabet_x10(void)
 	int j;
 	int i;
 	
-	for (j = 0; j < 10; i++)
+	j = 0;
+
+	while (j < 10)
 	{
 		for (i = 0; i < 27; i++)
 			putchar(alphabets[i]);
+
+		j++;
 	}
 }
