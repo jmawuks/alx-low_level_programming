@@ -8,6 +8,14 @@
 
 int main(void)
 {
-	printf("_putchar\n");
+	char letters[9] = "_putchar\n";
+	
+	int i;
+
+	for (i = 0; i < 9; i++)
+		putchar(letters[i]);
+
 	return (0);
 }
+
+
