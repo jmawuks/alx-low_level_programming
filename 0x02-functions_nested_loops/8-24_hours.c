@@ -9,7 +9,7 @@
 
 void jack_bauer(void)
 {
-	int h1;
+	int h1 = 0;
 	int h2;
 	int m1;
 	int m2;
@@ -26,7 +26,7 @@ void jack_bauer(void)
 			while (m1 <= 5)
 			{
 				while (m2 <= 9)
-				{	
+				{
 					if (h1 == 2 && h2 > 3)
 						break;
 
