@@ -27,19 +27,17 @@ void times_table(void)
 				resultO = result % 10;
 				_putchar ('0' + resultT);
 				_putchar ('0' + resultO);
+
+				if (j < 9)
+					add_space();
 			}
 
 			else
+			{
 				_putchar ('0' + result);
-
-			if (j < 9)
-			{	
-				_putchar (',');
 				
-				if (resultT == 0)
-					_putchar (' ');
-
-				_putchar (' ');
+				if (j < 9)
+					add_space_less10();
 			}
 
 			j++;
@@ -49,4 +47,17 @@ void times_table(void)
 		j = 0;
 		_putchar ('\n');
 	}
+}
+
+void add_space_less10(void)
+{
+	_putchar (',');
+	_putchar (' ');
+	_putchar (' ');
+}
+
+void add_space(void)
+{
+	_putchar (',');
+	_putchar (' ');
 }
