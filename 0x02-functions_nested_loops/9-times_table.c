@@ -40,20 +40,19 @@ void times_table(void)
 				resultO = result % 10;
 				_putchar ('0' + resultT);
 				_putchar ('0' + resultO);
-
-				if (j < 9)
-					add_space();
 			}
 
 			else
 			{
-				_putchar ('0' + result);
-				
-				if (j < 9)
-					add_space_less10();
+				_putchar ('0' + result);				
 			}
 
 			j++;
+
+			if (j < 9 && o * (j + 1) <= 9)
+				add_space_less10;
+			else
+				add_space;
 		}
 
 		o++;
