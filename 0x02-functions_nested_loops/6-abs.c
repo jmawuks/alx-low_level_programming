@@ -8,10 +8,14 @@
  * Return: int +, -
  */
 
-int _abs(int)
+int _abs(int r)
 {
-	int value;
+	
+	if (r < 0)
+		r *= -1;
+	else
+		r *= 1;
 
-	return (abs(value));
+	return (r);
 }
 
