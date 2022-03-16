@@ -19,13 +19,13 @@ void jack_bauer(void)
 	m1 = 0;
 	m2 = 0;
 
-	while (h1 < 2)
+	while (h1 <= 2)
 	{
-		while (h2 < 9)
+		while (h2 <= 9)
 		{
-			while (m1 < 5)
+			while (m1 <= 5)
 			{
-				while (m2 < 9)
+				while (m2 <= 9)
 				{
 					_putchar ('0' + h1);
 					_putchar ('0' + h2);
