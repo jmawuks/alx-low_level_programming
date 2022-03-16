@@ -18,7 +18,6 @@ void times_table(void)
 		{
 			result = o * j;
 			nextResult = o * (j + 1);
-
 			if (result > 9)
 			{
 				resultT = result / 10;
@@ -26,14 +25,11 @@ void times_table(void)
 				_putchar ('0' + resultT);
 				_putchar ('0' + resultO);
 			}
-
 			else
 			{
 				_putchar ('0' + result);
 			}
-
 			j++;
-
 			if (j < 10)
 			{
 				if (nextResult >= 10)
@@ -49,7 +45,6 @@ void times_table(void)
 				}
 			}
 		}
-
 		o++;
 		j = 0;
 		_putchar ('\n');
