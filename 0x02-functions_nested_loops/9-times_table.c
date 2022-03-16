@@ -27,6 +27,7 @@ void times_table(void)
 	int result = 0;
 	int resultT = 0;
 	int resultO = 0;
+	int nextResult = 0;
 
 	while (o <= 9)
 	{
