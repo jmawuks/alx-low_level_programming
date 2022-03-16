@@ -14,7 +14,7 @@ void print_to_98(int n)
 	int number;
 
 	number = n;
-	
+
 	if (number > 98)
 	{
 		for (number = n; number >= 98; number--)
