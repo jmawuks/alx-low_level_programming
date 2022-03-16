@@ -12,6 +12,7 @@
 int add(int o, int j)
 {
 	int value;
+
 	value = 0;
 
 	value = o + j;
