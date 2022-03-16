@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * print_alphabet - prints small letters of all alphabets
+ * _islower - checks if a character, c is upper or lower case
+ * @c: takes ASCII value of character for checking
  *
- * Return: void
+ * Return: int 1 (true), 0 (false)
  */
 
 int _islower(int c)
@@ -16,6 +17,6 @@ int _islower(int c)
 	else
 		value = 0;
 
-	return value;
+	return (value);
 }
 
