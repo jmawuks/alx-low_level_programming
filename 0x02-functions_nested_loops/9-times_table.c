@@ -56,7 +56,7 @@ void times_table(void)
 				if (nextResult >= 10)
 					add_space();
 				else if (nextResult < 10)
-					add_space_less10()
+					add_space_less10();
 			}
 		}
 
