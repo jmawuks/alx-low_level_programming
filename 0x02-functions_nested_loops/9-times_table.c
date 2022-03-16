@@ -33,6 +33,7 @@ void times_table(void)
 		while (j <= 9)
 		{
 			result = o * j;
+			nextResult = o * (j + 1);
 
 			if (result > 9)
 			{
@@ -49,10 +50,13 @@ void times_table(void)
 
 			j++;
 
-			if (j < 9 && o * (j + 1) <= 9)
-				add_space_less10();
-			else if (j < 9 && o * (j + 1) > 9)
-				add_space();
+			if (j < 9)
+			{
+				if (nextResult >= 10)
+					add_space();
+				else if (nextResult < 10)
+					add_space_less10()
+			}
 		}
 
 		o++;
