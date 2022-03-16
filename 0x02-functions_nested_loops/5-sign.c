@@ -13,9 +13,9 @@ int print_sign(int n)
 	int value;
 
 	if (n >= 0)
-		value = '+' + 0;
+		value = 43;
 	else
-		value = '=' + 0;
+		value = 45;
 
 	return (value);
 }
