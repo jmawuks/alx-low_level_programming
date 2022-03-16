@@ -22,12 +22,8 @@ void add_space_less10(void)
 
 void times_table(void)
 {
-	int o = 0;
-	int j = 0;
-	int result = 0;
-	int resultT = 0;
-	int resultO = 0;
-	int nextResult = 0;
+	int o, j, result, resultT, resultO, nextResult;
+	o = j = result = resultT = resultO = nextResult = 0;
 
 	while (o <= 9)
 	{
