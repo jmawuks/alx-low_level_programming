@@ -3,7 +3,9 @@
 
 /**
  * times_table - prints the 9 times table from 0
+ *
  * add_space - adds a comma and a space for numbers larger than 9
+ * 
  * add_space_less10 - adds a comma and two spaces for numbers smaller than 10
  *
  * Return: 0
