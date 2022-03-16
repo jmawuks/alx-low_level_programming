@@ -51,7 +51,7 @@ void times_table(void)
 
 			if (j < 9 && o * (j + 1) <= 9)
 				add_space_less10();
-			else
+			else if (j < 9 && o * (j + 1) > 9)
 				add_space();
 		}
 
