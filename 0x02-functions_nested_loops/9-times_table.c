@@ -51,7 +51,7 @@ void times_table(void)
 
 			j++;
 
-			if (j < 9)
+			if (j < 10)
 			{
 				if (nextResult >= 10)
 					add_space();
