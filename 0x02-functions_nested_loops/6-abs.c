@@ -3,14 +3,14 @@
 
 /**
  * _abs - finds absolute of a number
- * @int: number we try to find abs of
+ * @r: number we try to find abs of
  *
  * Return: int +, -
  */
 
 int _abs(int r)
 {
-	
+
 	if (r < 0)
 		r *= -1;
 	else
