@@ -7,6 +7,19 @@
  * Return: 0
  */
 
+void add_space(void)
+{
+	_putchar (',');
+	_putchar (' ');
+}
+
+void add_space_less10(void)
+{
+	_putchar (',');
+	_putchar (' ');
+	_putchar (' ');
+}
+
 void times_table(void)
 {
 	int o = 0;
@@ -47,17 +60,4 @@ void times_table(void)
 		j = 0;
 		_putchar ('\n');
 	}
-}
-
-void add_space_less10(void)
-{
-	_putchar (',');
-	_putchar (' ');
-	_putchar (' ');
-}
-
-void add_space(void)
-{
-	_putchar (',');
-	_putchar (' ');
 }
