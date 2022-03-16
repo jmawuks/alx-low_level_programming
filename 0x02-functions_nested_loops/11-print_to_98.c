@@ -24,6 +24,8 @@ void print_to_98(int n)
 			if (number != 98)
 				printf(", ");
 		}
+
+		printf("\n");
 	}
 
 	else if (number <= 98)
@@ -35,6 +37,8 @@ void print_to_98(int n)
 			if (number != 98)
 				printf(", ");
 		}
+
+		printf("\n");
 	}
 }
 
