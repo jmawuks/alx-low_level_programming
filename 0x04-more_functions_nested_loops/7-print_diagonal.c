@@ -14,25 +14,27 @@ void print_diagonal(int n)
 	int j;
 	int space;
 
-	space = 1;
+	space = 0;
 
 	if (n > 0)
 	{
 		for (i = 0; i < n; i++)
 		{
-			_putchar(92);
-			_putchar('\n');
-
 			for (j = 0; j < space; j++)
 			{
 				_putchar(32);
 			}
+
+			_putchar(92);
+
+			if (i < n)
+				_putchar('\n');
 
 			space++;
 		}
 		space = 0;
 	}
 
-	else
-		_putchar('\n');
+	else if (n <= 0)
+		_putchar(10);
 }
