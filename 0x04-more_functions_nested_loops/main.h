@@ -3,5 +3,6 @@
 
 int _putchar(char c);
 int _isupper(int c);
+int _isdigt(int c);
 
 #endif
