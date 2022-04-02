@@ -10,6 +10,7 @@
 int main(void)
 {
 	long int number, count;
+
 	number = 612852475143;
 
 	for (count = 2; number > 1; count++)
