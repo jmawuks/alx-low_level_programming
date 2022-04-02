@@ -7,7 +7,7 @@
  * Return: void
  */
 
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	char digits[9] = "01356789\n";
 
