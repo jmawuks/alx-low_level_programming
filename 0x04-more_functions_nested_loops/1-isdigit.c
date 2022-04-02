@@ -8,7 +8,7 @@
  * Return: int 1 (true), 0 (false)
  */
 
-int _isupper(int c)
+int _isdigit(int c)
 {
 	int value;
 
