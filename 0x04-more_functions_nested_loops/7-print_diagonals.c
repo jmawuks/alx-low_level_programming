@@ -22,15 +22,16 @@ void print_diagonal(int n)
 		{
 			_putchar(92);
 			_putchar('\n');
+		
+			j = 0;
 
-			for (j = 0; j < space; j++)
+			while (j < space)
 			{
 				_putchar(32);
+				j++;
 			}
-
 			space++;
 		}
-		space = 0;
 	}
 
 	else

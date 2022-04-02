@@ -9,6 +9,8 @@ int main(void)
 {
 	print_diagonal(0);
 	print_diagonal(2);
+	print_diagonal(6);
+	print_diagonal(14);
 	print_diagonal(-4);
 	return (0);
 }
