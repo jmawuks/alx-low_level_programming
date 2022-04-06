@@ -12,13 +12,18 @@ char *_strdup(char *str)
 	int i;
 	int count;
 
+	if (str == NULL)
+	{
+		return (NULL);
+	}
+
 	count = 0;
 	while (str[count] != '\0')
 	{
 		count++;
 	}
 
-	buffer = malloc(count * sizeof(char));
+	buffer = malloc((count + 1) * sizeof(char));
 
 	if (buffer == NULL)
 	{
