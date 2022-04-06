@@ -9,8 +9,19 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	char *ar = malloc(size * sizeof(char));
+	char *ar;
+	int i;
 
-	ar[0] = c;
+	ar = malloc((size + 1) * sizeof(char));
+	if (ar == NULL)
+	{
+		return (NULL);
+	}
+	i = 0;
+	while (i < size)
+	{
+		ar[i] = c;
+		i++;
+	}
 	return (ar);
 }
